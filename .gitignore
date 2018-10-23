@@ -1,0 +1,12 @@
+*.DS_Store
+*.Thumbs.db
+*.suo
+*.csproj.user
+.vs
+
+NuGetBackup/
+node_modules/
+
+/dist/
+
+/src/packages/
