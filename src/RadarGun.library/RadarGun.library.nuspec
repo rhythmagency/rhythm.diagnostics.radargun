@@ -17,4 +17,8 @@
       <dependency id="Newtonsoft.Json" version="[10,11)" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="readme.txt" target="" />
+    <file src="content\**\*.*" target="content" />
+  </files>
 </package>
