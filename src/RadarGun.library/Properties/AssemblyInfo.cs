@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RadarGun.library")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("RadarGun")]
+[assembly: AssemblyDescription("Utility module for precisely measuring time taken, especially in ASP.NET web applications.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Rhythm")]
 [assembly: AssemblyProduct("RadarGun.library")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("© 2018 Rhythm")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
