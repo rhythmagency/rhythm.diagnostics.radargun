@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+
+  <system.web>
+    <httpModules>
+      <add name="RadarGunModule" type="Rhythm.Diagnostics.RadarGunModule" xdt:Transform="Remove" />
+    </httpModules>
+  </system.web>
+
+  <system.webServer>
+    <modules>
+      <remove name="RadarGunModule" xdt:Transform="Remove" />
+      <add name="RadarGunModule" type="Rhythm.Diagnostics.RadarGunModule" xdt:Transform="Remove" />
+    </modules>
+  </system.webServer>
+
+</configuration>
